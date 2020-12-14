@@ -1,0 +1,31 @@
+<!--<?xml version="1.0" encoding="UTF-8" ?>-->
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Test" parallel="false" >
+    <!--parallel="false"-->
+
+<!--    <parameter name="useCloudEnv" value="false"/>-->
+<!--    <parameter name="cloudEnvName" value="browserstack"/>-->
+<!--    <parameter name="os" value="mac"/>-->
+<!--    <parameter name="os_version" value="10.15.4"/>-->
+<!--    <parameter name="browserVersion" value="85.0.4183.102"/>-->
+<!--    <parameter name="browserName" value="Chrome"/>-->
+<!--    <parameter name="url" value="http://automationpractice.com/index.php"/>-->
+
+
+
+<test name = "Practice Page">
+
+    <classes>
+<!--        <class name="page_objects_test.HomePageTest"/>-->
+<!--        <class name="page_objects_test.Practice_Automation_HomePage_Test"/>-->
+            <class name="jwtAuth.TestEndpointWithJwt"></class>
+        <!--<class name="page_objects_test.ContactUsPageTest"></class> >-->
+
+    </classes>
+
+
+ <!--Hello-->
+</test>
+
+</suite>
